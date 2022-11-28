@@ -1,0 +1,25 @@
+.block{
+    height: 100px;
+    width: 100px;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    position: relative;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.maincon{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.block:hover{
+    border: 4px solid deeppink;
+}
